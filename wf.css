@@ -1,0 +1,55 @@
+body{
+background-color: rgb(16,22,25);
+font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+color: white;
+}
+.reload {font-family: Lucida Sans Unicode;}
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+.card-container{
+text-align: center;
+align-content:center;
+background-color: rgb(22,30,33);
+width: 15em;
+padding: 1em;
+margin: .5em;
+}
+.bar{
+background-color: rgb(23,39,39);
+align-self: center;
+height: 25px;
+margin-top: 2em;
+width: 90%;
+margin-left: 5%;
+border-radius: 0.5em;
+border-color: rgb(27,101,88);
+border-width: 1px;
+border-style: solid;
+}
+.line{
+border-top-left-radius: 0.5em;
+border-bottom-left-radius: 0.5em;
+background-color: rgb(27,101,88);
+border-color: rgb(27,101,88);
+border-left-width: 1px;
+border-left-style: solid;
+height: 100%;
+margin-left: -1px;
+}
+.barUnder{
+margin-bottom: 2em;
+width: 90%;
+margin-left: 5%;
+height: 20px;
+white-space:nowrap;
+}
+.barLeft{float: left;}
+.barRight{float: right;}
+.itemType{
+text-align: center;
+font-size: x-large;
+}
